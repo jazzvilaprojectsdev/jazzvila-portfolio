@@ -11,21 +11,19 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="px-5 flex justify-center overflow-hidden">
+      <div className="px-5 flex justify-center">
         <img
           src="/img/jazzvila.jpg"
-          className="rounded-xl shadow-xl w-full h-auto max-w-xl object-cover"
+          className="rounded-xl shadow-xl w-full max-w-xl object-cover"
         />
       </div>
 
-      <div className="w-full flex items-center justify-center mt-10">
+      {/* <div className="w-full flex items-center justify-center mt-10">
         <a
           href="https://instagram.com/jazzvila"
           className="inline-flex justify-center items-center"
         >
           <svg
-            // width="512pt"
-            // height="512pt"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
             className="w-8 h-8"
@@ -36,7 +34,7 @@ export default function Home() {
           </svg>
           <span className="ml-2">jazzvila</span>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
