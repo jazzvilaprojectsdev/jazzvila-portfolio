@@ -1,7 +1,16 @@
-import '../styles/tailwind.css'
+import "../styles/tailwind.css";
+import Head from "next/head";
+import { AppProps } from "next/app";
 
-const MyApp = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Head>
+        <title>Jazz Vila</title>
+      </Head>
+      <div className="min-h-screen bg-gray-100 text-gray-700 pb-10 overscroll-none">
+        <Component {...pageProps} />
+      </div>
+    </>
+  );
 }
-
-export default MyApp
