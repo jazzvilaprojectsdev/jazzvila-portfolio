@@ -14,7 +14,7 @@ export default function Home() {
       <div className="px-5 flex justify-center overflow-hidden">
         <img
           src="/img/jazzvila.jpg"
-          className="rounded-xl shadow-xl w-full h-auto max-w-xl"
+          className="rounded-xl shadow-xl w-full h-auto max-w-xl object-cover"
         />
       </div>
 
