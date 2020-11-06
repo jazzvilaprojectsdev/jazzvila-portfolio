@@ -12,10 +12,7 @@ export default function Home() {
       </div>
 
       <div className="px-5 flex justify-center">
-        <img
-          src="/img/jazzvila.jpg"
-          className="rounded-xl shadow-xl w-full object-cover"
-        />
+        <img src="/img/jazzvila.jpg" className="rounded-xl shadow-xl" />
       </div>
 
       {/* <div className="w-full flex items-center justify-center mt-10">
