@@ -8,9 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Jazz Vila</title>
       </Head>
-      <div className="min-h-screen bg-gray-100 text-gray-700 pb-10 overscroll-none">
-        <Component {...pageProps} />
-      </div>
+      <Component {...pageProps} />
     </>
   );
 }
