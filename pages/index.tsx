@@ -14,7 +14,7 @@ export default function Home() {
       <div className="px-5 flex justify-center">
         <img
           src="/img/jazzvila.jpg"
-          className="rounded-xl shadow-xl w-full max-w-xl object-cover"
+          className="rounded-xl shadow-xl w-full object-cover"
         />
       </div>
 
